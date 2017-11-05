@@ -1,0 +1,60 @@
+/* CSS Document */
+#divmain{
+	background-image:url(../img/timg.jpg);
+	width:1000px;
+	height:500px;
+	margin:0px auto;	
+    margin-top: 50px;
+	}
+#divleft{
+	width:500px;
+	height:500px;
+	float:left;
+	}
+#divright{
+	width:500px;
+	height:500px;
+	float:left;
+	}
+#pno{
+	width:150px;
+	height:20px;
+	}
+#ppwd{
+	width:150px;
+	height:20px;
+	}
+#ptext{
+	width:70px;
+	height:20px;
+	}
+#bttext{
+	height:30px;
+	background: transparent;
+	}
+#yes{
+	width:80px;
+	height:30px;
+	background: transparent;
+	}
+#no{
+	width:80px;
+	height:30px;
+	background: transparent;
+	}
+table{
+	margin:0px auto;
+	}
+#divlon{
+	width:500px;
+	height:300px;
+	margin-top: 100px;
+	border-left:#000 2px solid;
+	}
+#bttext{
+	margin-left:20px;
+	}
+form{
+	margin-left:75px;
+	margin-right:75px;
+	}

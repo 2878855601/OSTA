@@ -1,0 +1,100 @@
+/* CSS Document */
+#divstyl{
+	width:1300px;
+	height:600px;
+	border:#000 1px solid;
+	background-image:url(../img/timg.jpg);
+	margin:0 auto;
+}
+#divstxx{
+	width:1000px;
+	height:600px;
+	border:#000 1px solid;
+	margin:0 auto;
+
+}
+#div1{
+	width:1300px;
+	height:600px;
+	border:#000 1px solid;
+		float:left;
+}
+#divstbt{
+	width:600px;
+	height:100px;
+	margin-left:40px;
+	font-size:30px;
+	text-align:center;
+	border:#000 1px solid;
+}
+#pname{
+    margin-top: 5px;
+    margin-bottom: 0px;
+
+}
+#divxsxx{
+	width:800px;
+	height:20px;
+	text-align:center;
+	}
+#divst{
+	width:1300px;
+	height:476px;
+}
+#divstx{
+	width:800px;
+	height:476px;
+	float:left;
+	overflow:auto; 
+}
+#divstr{
+	width:498px;
+	height:476px;
+	border:#000 1px solid;
+	margin-left:800px;
+}
+#divdtk{
+	width:420px;
+	float:left;
+	margin-top:20px;
+	margin-left:39px;	
+}
+#divsy{
+	width:400px;
+	margin-top:20px;
+	margin-left:49px;
+	float:left;
+}
+#divjuan{
+	 text-align:center;
+	 margin-top:40px;
+	 margin-left:200px;	
+	 float:left;
+}
+#jiaojuan{
+	width: 100px;
+	height: 30px;
+	background: transparent;
+}
+.divth{
+	width: 40px;
+	height: 40px; 
+	border: #000 1px solid; 
+	float: left;
+	text-align:center;
+}
+a{
+	text-decoration:none;
+}
+#divzt{
+	display: none;
+	margin:0 auto;
+	background-image:url(../img/timg.jpg);
+	font-size: 50px;
+}
+#divzzt{
+	width:600px;
+	height:200px;
+	border:#000 1px solid;
+	margin:0 auto;
+}

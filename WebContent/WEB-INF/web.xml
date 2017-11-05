@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>OSTASystem</display-name>
+  <servlet>
+    <servlet-name>InvigilateServert</servlet-name>
+    <servlet-class>com.soft.web.InvigilateServert</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>InvigilateServert</servlet-name>
+    <url-pattern>/InvigilateServert</url-pattern>
+  </servlet-mapping>
+  <servlet>
+  	<servlet-name>UserManageServert</servlet-name>
+  	<servlet-class>com.soft.web.UserManageServert</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>UserManageServert</servlet-name>
+  	<url-pattern>/UserManageServert</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>UserLoginServert</servlet-name>
+    <servlet-class>com.soft.web.UserLoginServert</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UserLoginServert</servlet-name>
+    <url-pattern>/UserLoginServert</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>UserVerifyServert</servlet-name>
+    <servlet-class>com.soft.web.UserVerifyServert</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UserVerifyServert</servlet-name>
+    <url-pattern>/UserVerifyServert</url-pattern>
+  </servlet-mapping>
+  <filter>
+    <filter-name>filName</filter-name>
+    <filter-class>com.soft.filter.EncodingFiter</filter-class>
+    <init-param>
+      <param-name>filterNames</param-name>
+      <param-value>UTF-8</param-value>
+    </init-param>
+  </filter>
+  <filter-mapping>
+    <filter-name>filName</filter-name>
+    <url-pattern>/*</url-pattern>
+  </filter-mapping>
+  <welcome-file-list>
+    <welcome-file>Index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>

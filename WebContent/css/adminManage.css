@@ -1,0 +1,209 @@
+/* CSS Document */
+#divbig {
+	display: none; /*隐藏不显示窗口*/
+	position: absolute;
+	width: 100%;
+	height: 650px;
+	top: 0;
+	left: 0;
+	margin:auto;
+	background-color: #336;
+	z-index: 1; /**页面层*/
+	opacity: 0.4; /*透明度*/
+}
+
+#divbogtop {
+	display: none; /*隐藏不显示窗口*/
+	width:800px;
+	height:500px;
+	margin: 0px auto;
+}
+
+#divshow {
+	display: none; /*隐藏不显示窗口*/
+	position: absolute;
+	top: 5%; /*位置信息*/
+	left: 40%;
+	width: 20%; /*显示框大小*/
+	height: 23%;
+	text-align:center;
+	border: 8px solid #E8E9F7; /*显示框边框*/
+	background-color: white; /*显示框背景颜色*/
+	z-index: 2; /**页面层*/
+}
+
+#divmain {
+	width: 1000px;
+	height: 600px;
+	margin: 0px auto;
+	background-image:url(../img/timg.jpg);
+	border: #000 1px solid;
+}
+
+#divtop {
+	width: 920px;
+	height: 100px;
+	margin: 0px auto;
+	margin-top: 20px;
+	border: #000 1px solid;
+}
+
+#divmid {
+	width: 920px;
+	height: 380px;
+	margin: 0px auto;
+	margin-top: 20px;
+	border: #000 1px solid;
+}
+
+#toLead {
+	width: 100px;
+	height: 30px;
+	background: transparent;
+}
+
+#path {
+	height: 30px;
+	background: transparent;
+}
+
+#divdow {
+	width: 920px;
+	height: 50px;
+	margin: 0px auto;
+	margin-top: 20px;
+}
+
+#preview {
+	display: none;
+	width: 150px;
+	height: 30px;
+	background: transparent;
+}
+
+#preuser {
+	display: none;
+	width: 150px;
+	height: 30px;
+	background: transparent;
+}
+
+#yes {
+	display: none;
+	width: 200px;
+	height: 40px;
+	background: transparent;
+}
+#pus{
+	margin-top:10px;
+	margin-bottom:10px;
+}
+#dimain{
+	width:800px;
+	height:500px;
+	margin:0px auto;
+	background-image:url(../img/timg.jpg);
+	border:#000 1px solid;
+}
+#ditop{
+	width:760px;
+	height:430px;
+	margin:0px auto;
+	border:#000 1px solid;
+}
+#useryes{
+	width: 100px;
+	height: 30px;
+	background: transparent;
+}
+#pyes{
+	width: 100px;
+	height: 28px;
+	background: transparent;
+}
+#divstyl{
+	display: none;
+	width:1300px;
+	height:600px;
+	background-image:url(../img/timg.jpg);
+	border:#000 1px solid;
+	margin:0 auto;
+}
+#divstxx{
+	width:1000px;
+	height:600px;
+	border:#000 1px solid;
+	margin:0 auto;
+
+}
+#div1{
+	width:1300px;
+	height:600px;
+	border:#000 1px solid;
+		float:left;
+}
+#divstbt{
+	width:600px;
+	height:100px;
+	margin-left:40px;
+	font-size:30px;
+	text-align:center;
+	border:#000 1px solid;
+}
+#pname{
+    margin-top: 5px;
+    margin-bottom: 0px;
+
+}
+#divxsxx{
+	width:600px;
+	height:20px;
+	margin-left:40px;
+	text-align:center;
+	}
+#divst{
+	width:1300px;
+	height:476px;
+}
+#divstx{
+	width:800px;
+	height:476px;
+	float:left;
+	overflow:auto; 
+}
+#divstr{
+	width:498px;
+	height:476px;
+	border:#000 1px solid;
+	margin-left:800px;
+}
+#divdtk{
+	width:420px;
+	float:left;
+	margin-top:20px;
+	margin-left:39px;	
+}
+#divsy{
+	width:400px;
+	margin-top:20px;
+	margin-left:49px;
+	float:left;
+}
+#divjuan{
+	 text-align:center;
+	 margin-top:40px;
+	 margin-left:200px;	
+	 float:left;
+}
+#jiaojuan{
+	width: 100px;
+	height: 30px;
+	background: transparent;
+}
+#divth{
+	width: 40px; height: 40px; border: #000 1px solid; float: left;text-align:center;
+}
+a{
+	text-decoration:none;
+}
+

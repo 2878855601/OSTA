@@ -1,0 +1,46 @@
+/* CSS Document */
+#divmain{
+	width:1000px;
+	height:500px;
+	background-image:url(../img/timg.jpg);
+	margin:0px auto;	
+    margin-top: 50px;
+	}
+#divleft{
+	width:500px;
+	height:500px;
+	float:left;
+	}
+#divright{
+	width:500px;
+	height:500px;
+	float:left;
+	}
+#uno{
+	width:200px;
+	}
+#uid{
+	width:200px;
+	}
+#uname{
+	width:200px;
+	}
+#yes{
+	width:80px;
+	height:30px;
+	background: transparent;	
+    margin-top: 20px;
+	}
+#select{
+	width:200px;
+	}
+#divfrom{
+	text-align:center;
+	}
+form{
+	margin-left:75px;
+	margin-right:75px;
+	}
+samp{
+	font-size:24px;
+	}

@@ -1,0 +1,31 @@
+/* CSS Document */
+#divmain{
+	width:1000px;
+	height:500px;
+	background-image:url(../img/timg.jpg);
+	margin:0px auto;
+	}
+#divtop{
+	width:900px;
+	height:200px;
+	margin:0px auto;	
+    margin-top: 25px;
+	text-align:center;
+	font-size:73px;
+	font-family:"华文行楷";
+	}
+#tabletop{
+	margin:0px auto;
+	text-align:center;
+	font-size:50px;
+	font-family:"华文楷体";
+	}
+#divdow{
+	width:900px;
+	height:200px;
+	margin:0px auto;	
+    margin-top: 25px;
+	}
+a{
+	text-decoration:none;
+	}
